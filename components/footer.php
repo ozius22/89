@@ -2,7 +2,7 @@
     <div class="mt-4 lg:mt-0 text-xs flex justify-center lg:justify-start w-1/4">
         <ul>
             <li class="leading-8"><a href="index.php">Home</a></li>
-            <li><a href="Recipes.php">Cook now</a>
+            <li><a href="recipes.php">Cook now</a>
                 <ul class="pl-8">
                     <li><a href="adobo.php">Adobo</a></li>
                     <li><a href="sisig.php">Sisig</a></li>

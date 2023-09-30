@@ -3,7 +3,7 @@
     <body>
         <?php include 'components/navbar2.php'; ?>
 
-        <main class="lg:mt-20 xl:h-96 h-80 m-0 sm:mt-24 bg-white w-screen scroll-smooth">
+        <main class="mt-[3rem] lg:mt-20 xl:h-96 h-80 m-0 sm:mt-24 bg-white w-screen scroll-smooth">
             <div class="w-screen h-80 flex flex-col justify-center items-center">
                 <h1 class="xl:font-bold lg:text-8xl text-center text-6xl text-gray-800 font-semibold tracking-wider mb-4">Adobo</h1>
                 <p class="text-gray-800 xl:text-xl xl:font-medium text-justify text-sm md:text-base md:text-center mr-8 ml-8">"Adobo: The quintessential Filipino dish, boasting a delicious blend of tangy vinegar and savory soy sauce, sure to satisfy your taste buds and transport you to the heart of the Philippines!"</p> <br>

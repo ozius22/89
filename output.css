@@ -647,10 +647,6 @@ video {
   top: 0px;
 }
 
-.bottom-1 {
-  bottom: 0.25rem;
-}
-
 .isolate {
   isolation: isolate;
 }
@@ -752,10 +748,6 @@ video {
   margin-left: 2rem;
 }
 
-.ml-\[-0\.5rem\] {
-  margin-left: -0.5rem;
-}
-
 .mr-8 {
   margin-right: 2rem;
 }
@@ -784,8 +776,8 @@ video {
   margin-top: 2rem;
 }
 
-.mt-\[-175px\] {
-  margin-top: -175px;
+.mt-\[-125px\] {
+  margin-top: -125px;
 }
 
 .mt-\[-2rem\] {
@@ -796,12 +788,12 @@ video {
   margin-top: 2rem;
 }
 
-.mt-\[9rem\] {
-  margin-top: 9rem;
+.mt-\[3rem\] {
+  margin-top: 3rem;
 }
 
-.mt-\[-125px\] {
-  margin-top: -125px;
+.mt-\[9rem\] {
+  margin-top: 9rem;
 }
 
 .box-border {
@@ -911,6 +903,10 @@ video {
   height: 24rem;
 }
 
+.h-\[100vh\] {
+  height: 100vh;
+}
+
 .h-auto {
   height: auto;
 }
@@ -924,20 +920,12 @@ video {
   height: 100vh;
 }
 
-.h-\[65vh\] {
-  height: 65vh;
-}
-
 .w-1\/2 {
   width: 50%;
 }
 
 .w-1\/4 {
   width: 25%;
-}
-
-.w-16 {
-  width: 4rem;
 }
 
 .w-3\/4 {
@@ -2121,6 +2109,11 @@ video {
   padding: 1rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -2144,6 +2137,11 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .pb-4 {
@@ -2816,14 +2814,14 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.hover\:bg-yellow-400:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-yellow-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(254 240 138 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-yellow-400:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
 .hover\:font-bold:hover {
@@ -2917,10 +2915,6 @@ video {
 
   .sm\:underline {
     text-decoration-line: underline;
-  }
-
-  .sm\:decoration-2 {
-    text-decoration-thickness: 2px;
   }
 }
 
@@ -3102,10 +3096,6 @@ video {
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:font-bold {
-    font-weight: 700;
   }
 
   .lg\:text-gray-500 {

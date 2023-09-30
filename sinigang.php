@@ -3,7 +3,7 @@
     <body>
         <?php include 'components/navbar2.php'; ?>
 
-        <main class="lg:mt-20 xl:h-96 h-80 m-0 sm:mt-24 bg-white w-screen scroll-smooth">
+        <main class="mt-[3rem] lg:mt-20 xl:h-96 h-80 m-0 sm:mt-24 bg-white w-screen scroll-smooth">
             <div class="w-screen h-80 flex flex-col justify-center items-center">
             <h1 class="xl:font-bold lg:text-8xl text-center text-6xl text-gray-800 font-semibold tracking-wider mb-4">Sinigang</h1>
             <p class="text-gray-800 xl:text-xl xl:font-medium text-justify text-sm md:text-base md:text-center mr-8 ml-8">"Get ready for a burst of tangy and savory flavors with our sinigang recipe, a Filipino classic that's sure to satisfy your taste buds!"</p> <br>

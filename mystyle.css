@@ -93,6 +93,7 @@
 @media(max-width:768px) {
   #menu {
     padding: 20px;
+    padding-left: 32px;
   }
 
   #menu-bar:checked ~ #menu {
