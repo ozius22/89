@@ -6,7 +6,6 @@
         <link rel="stylesheet" href="output.css">
         <link rel="stylesheet" href="mystyle.css">
         <script defer src="script.js"></script>
-        <script src="script2.js"></script>
     </head>
 
 

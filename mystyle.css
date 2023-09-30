@@ -84,3 +84,18 @@
     color: black;
   }
 }
+
+#menu-bar, #close-bar {
+  display: none;
+}
+
+
+@media(max-width:768px) {
+  #menu {
+    padding: 20px;
+  }
+
+  #menu-bar:checked ~ #menu {
+    display: block;
+  }
+}

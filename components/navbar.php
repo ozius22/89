@@ -1,14 +1,35 @@
 <?php include 'template.php'; ?>
 
-<header class="border-b border-gray-200 lg:rounded-b-full items-center justify-between fixed top-0 left-0 md:flex-row flex flex-row-reverse px-8 lg:px-24 w-screen bg-white z-10">
+<header class="py-2 sm:py-0 border-b border-gray-200 rounded-b-lg lg:rounded-b-full items-center justify-between fixed top-0 left-0 flex px-8 lg:px-24 w-screen bg-white z-10">
         <div class="items-center gap-2 md:flex">
-        <button id="menu-toggle" class="bg-blue-500 text-white p-2">Toggle Menu</button>
-
-            <div id="menu" class="bg-white w-64 h-screen fixed top-0 right-0 transform translate-x-full transition-transform duration-300 ease-in-out">
-            <!-- Menu content goes here -->
-            <a class="text-sm sm:text-2xl font-bold tracking-wider text-yellow-500 hover:text-yellow-400 transition-all py-4" href="index.php">The Filipino Cuisine</a>
-            </div>
             
+            <!-- secondary menu -->
+            <input type="checkbox" name="" id="menu-bar">
+            <label class="opacity-50 hover:opacity-100 md:hidden" for="menu-bar"><img class="w-[1.8rem] cursor-pointer" src="img/menu.png" alt="Just another menu"></label>
+            
+            <nav id="menu" class="bg-white rounded-b-lg w-full h-[65vh] fixed top-0 left-0 hidden px-8">
+                
+                <input type="checkbox" name="" id="close-bar">
+                <label class="opacity-50 hover:opacity-100 md:hidden" for="menu-bar"><img class="w-[1.8rem] cursor-pointer" src="img/menu.png" alt="Just another menu"></label>
+
+                <ul class="py-4 flex flex-col items-center space-y-8">
+                    <li class="decoration-yellow-400 rounded-lg w-full text-center py-4 decoration-2 hover:text-gray-900 transition-all hover:bg-yellow-200">
+                        <a class="py-4" href="index.php">Home</a>
+                    </li>
+                    <li class="decoration-yellow-400 rounded-lg w-full text-center py-4 decoration-2 hover:text-gray-900 transition-all hover:bg-yellow-200">
+                        <a class="py-4" href="Recipes.php">Recipes</a>
+                    </li>
+                    <li class="decoration-yellow-400 rounded-lg w-full text-center py-4 decoration-2 hover:text-gray-900 transition-all hover:bg-yellow-200">
+                        <a class="py-4" href="about.php">About Us</a>
+                    </li>
+                    <li class="decoration-yellow-400 rounded-lg w-full text-center py-4 decoration-2 hover:text-gray-900 transition-all hover:bg-yellow-200">
+                        <a class="py-4" href="form.php">Join Us</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <!-- secondary menu -->
+
             <nav class="hidden md:block text-sm">
                 <ul class="flex justify-center gap-2 font-bold text-gray-500 underline-offset-4 transition-all">
                     <li class="decoration-yellow-400 decoration-2 hover:text-gray-900 transition-all hover:underline"><a class="py-4" href="Recipes.php">Cook now</a></li>

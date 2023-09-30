@@ -1,4 +1,4 @@
-<footer class="lg:rounded-t-full space-y-12 lg:space-y-0 lg:pl-[8.4rem] lg:pr-[7.2rem] py-4 flex flex-col lg:flex-row items-center lg:items-baseline justify-between lg:justify-between w-screen bg-yellow-800 text-gray-200">
+<footer class="lg:rounded-t-full rounded-t-lg space-y-12 lg:space-y-0 lg:pl-[8.4rem] lg:pr-[7.2rem] py-4 flex flex-col lg:flex-row items-center lg:items-baseline justify-between lg:justify-between w-screen bg-yellow-800 text-gray-200">
     <div class="mt-4 lg:mt-0 text-xs flex justify-center lg:justify-start w-1/4">
         <ul>
             <li class="leading-8"><a href="index.php">Home</a></li>
