@@ -5,7 +5,7 @@
             
             <!-- secondary menu -->
             <input type="checkbox" name="" id="menu-bar">
-            <label class="opacity-50 hover:opacity-100 md:hidden" for="menu-bar"><img class="w-[1.8rem] cursor-pointer" src="img/cooking.png" alt="Just another menu"></label>
+            <label class="opacity-50 hover:opacity-100 md:hidden" for="menu-bar"><img class="w-[1.8rem] cursor-pointer" src="img/menu.png" alt="Just another menu"></label>
             
             <nav id="menu" class="bg-white border-b border-gray-200 rounded-b-lg w-full h-[100vh] fixed top-0 left-0 hidden">
                 
